@@ -1,23 +1,67 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# My-PortFolio
-=======
->>>>>>> 9330774 (Initial commit - Portfolio uploaded)
-# React + Vite
+# 🚀 Paritosh Kumar - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This is where I showcase my skills, projects, and experience as a web developer. My goal is to create an engaging, interactive, and visually appealing portfolio to highlight my expertise in frontend and backend development.
 
-Currently, two official plugins are available:
+## 📸 Hero Section Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Hero Section](./src/assets/PortfolioHero.png)
 
-## Expanding the ESLint configuration
+> *Replace the above image with an actual screenshot of your hero section.*
 
-<<<<<<< HEAD
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-If  developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 8070eec (Initial commit - Portfolio uploaded
->>>>>>> 9330774 (Initial commit - Portfolio uploaded)
+## 🛠️ Tech Stack
+
+- **Technologies:** React.js, Tailwind CSS.
+
+## 📂 Project Structure
+
+```bash
+📦 portfolio-website
+├── 📂 src
+│   ├── 📂 pages       # Different sections of the website
+│   ├── 📂 section     # Reusable UI components  
+│   ├── 📂 assets      # Images and static files
+│   ├── 📜 App.js      # Main application entry
+│   ├── 📜 index.js    # React entry point
+├── 📜 package.json    # Project dependencies
+├── 📜 README.md       # Project documentation
+└── 📜 .gitignore      # Ignored files in version control
+```
+
+## 🎨 Features
+
+- **Interactive Hero Section**: A dynamic hero section showcasing my skill
+- **Projects Showcase**: Displays my best projects with live demos and source code.
+- **Contact-Me **: Allows visitors to get in touch with me.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+- Node.js & npm
+- Git
+
+### Installation
+
+```bash
+git clone https://github.com/paritoshkumar196/My-Portfolio.git
+cd portfolio-website
+npm install
+npm start
+```
+
+The website will run at `http://localhost:3000/`.
+
+## 🌐 Live Demo
+[Check out my portfolio here!](https://paritoshkumar196.github.io/My-Portfolio/)
+
+## 📞 Contact
+
+Feel free to reach out to me:
+- **Email:** paritoshkumar12212@gmail.com
+- **LinkedIn:** [linkedin.com/in/paritosh-kumar](https://linkedin.com/in/paritosh-kuswaha)
+- **GitHub:** [github.com/paritosh-portfolio](https://paritoshkumar196.github.io/My-Portfolio/)
+
+---
+💙 *Thank you for visiting! Don't forget to leave feedback.*
+

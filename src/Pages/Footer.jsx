@@ -113,7 +113,7 @@ const Footer = () => {
           </p>
           <p className="mt-1">
             Open source on <a 
-              href="https://github.com/yourusername/portfolio" 
+              href="https://github.com/paritoshkumar196/My-Portfolio.git" 
               className="text-pink-600 hover:underline"
             >
               GitHub
