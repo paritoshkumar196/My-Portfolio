@@ -8,8 +8,14 @@ import { MdDownload } from 'react-icons/md';
 import UserData from '../Data/UserData'
 
 const Home = () => {
+  const bgStyle = {
+    backgroundImage: `url(${import.meta.env.BASE_URL}hero.svg)`,
+    backgroundSize: "cover",
+    backgroundPosition: "center"
+  };
   return (
-    <div className="bg-slate-950 min-h-screen pt-20  flex flex-col lg:flex-row items-center justify-center lg:justify-between px-4 sm:px-8 lg:px-16 gap-8 lg:gap-4  md:gap-10 lg:gap-16 bg">
+    <div className="bg-slate-950 min-h-screen pt-20  flex flex-col lg:flex-row items-center justify-center lg:justify-between px-4 sm:px-8 lg:px-16 gap-8 lg:gap-4  md:gap-10 lg:gap-16"
+    style={bgStyle}>
       {/* Left Section - Introduction */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center order-2 lg:order-1 ">
         <div className="space-y-6 lg:space-y-8">

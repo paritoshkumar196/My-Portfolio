@@ -8,9 +8,16 @@ function Education() {
     { year: '2021-2022', course: 'Intermediate Science', Uname: 'S.N.S.Y College, Purnea' },
     { year: '2019-2020', course: 'Matriculation', Uname: 'Bright Career School, Purnea' },
   ]
+  const bgStyle = {
+    backgroundImage: `url(${import.meta.env.BASE_URL}hero.svg)`,
+    backgroundSize: "cover",
+    backgroundPosition: "center"
+  };
 
   return (
-    <div className='bg-slate-950 py-12 px-4 sm:px-6 lg:px-8 bg'>
+    <div className='bg-slate-950 py-12 px-4 sm:px-6 lg:px-8'
+   style={bgStyle}
+    >
       <div className="flex items-center justify-center mb-12">
         <div className="relative px-6 py-2 bg-slate-900 text-white rounded-lg">
           <span className="text-lg font-semibold">Education</span>
