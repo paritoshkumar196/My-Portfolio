@@ -1,0 +1,23 @@
+.active{
+  color:red;
+  border-bottom: 2px solid white;
+  transition: 0.5s ease-in-out;
+}
+.bg{
+  background-image: url(hero.svg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.intro{
+  font-family: "Anton", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+
+}
+.pk{
+  margin-left: 20px;
+}
+#contact {
+  scroll-margin-top: 80px;
+}
