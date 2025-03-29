@@ -5,6 +5,10 @@ import sections from '../Section/sections';
 
 
 const Footer = () => {
+  const onSubscribe=(e)=>{
+    e.preventDefault();
+    alert("This Feautre Will Roll Out Soon")
+  }
   const socialLinks = [
     {
       icon: <FaLinkedin className="w-6 h-6 sm:w-8 sm:h-8" />,
@@ -98,6 +102,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
+                onClick={onSubscribe}
                 className="px-4 py-2 bg-pink-600 text-white rounded-lg hover:bg-pink-700 transition-colors text-xl"
               >
                 Subscribe
