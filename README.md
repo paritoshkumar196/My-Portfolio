@@ -57,9 +57,11 @@ The website will run at `http://localhost:3000/`.
 
 After installation, **you only need to modify the `src/data` folder** to personalize the website with your own details.
 
-- **User Details**: Update `userData.js` with your name, social links, and contact information.
+- **User Details**: Update `UserData.js` with your name, social links, and contact information.
 - **About Section**: Modify `aboutData.js` to reflect your bio and interests.
-- **Projects**: Add your projects in `projectsData.js`.
+- **Projects**: Add your projects in `ProjectsData.js`.
+- **Skills**: Update `SkillsData.js` with your technical skills.
+- **Education**: Update `EducationData.js` with your educational background.
 
 Once you make these changes, your portfolio will be ready without touching any core code! 🚀
 
