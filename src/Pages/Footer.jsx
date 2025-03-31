@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaHeart } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import sections from '../Section/sections';
+import UserData from '../Data/UserData'
 
 
 const Footer = () => {
@@ -12,22 +13,22 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <FaLinkedin className="w-6 h-6 sm:w-8 sm:h-8" />,
-      url: 'https://www.linkedin.com/in/paritosh-kumar-a07766287/',
+      url: UserData.linkedin,
       name: 'LinkedIn'
     },
     {
       icon: <FaGithub className="w-6 h-6 sm:w-8 sm:h-8 " />,
-      url: 'https://github.com/paritoshkumar196',
+      url: UserData.github,
       name: 'GitHub'
     },
     {
       icon: <FaInstagram className="w-6 h-6 sm:w-8 sm:h-8 " />,
-      url: 'https://www.instagram.com/itsparitoshkushwaha?igsh=dWV2bWRyZDU0NXZ1',
+      url: UserData.instagram,
       name: 'Instagram'
     },
     {
       icon: <FaTwitter className="w-6 h-6 sm:w-8 sm:h-8" />,
-      url: 'https://twitter.com/yourhandle',
+      url: '#',
       name: 'Twitter'
     },
   ];
@@ -83,9 +84,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">Get in Touch</h4>
             <div className="space-y-2 text-lg">
-              <p>Bihar, India</p>
+              <p>{UserData.Location}</p>
               <a href="mailto:paritoshkumar12212@gmail.com" className="block hover:text-pink-600">
-            paritoshkumar12212@gmail.com
+           {UserData.email}
               </a>
              
             </div>
@@ -114,11 +115,11 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-slate-800 py-6 text-center text-xl">
           <p>
-            © {new Date().getFullYear()} ParitoshKumar. Made with <FaHeart className="inline text-pink-600" /> in India
+            © {new Date().getFullYear()} {UserData.name}. Made with <FaHeart className="inline text-pink-600" /> in India
           </p>
           <p className="mt-1">
             Open source on <a 
-              href="https://github.com/paritoshkumar196/My-Portfolio.git" 
+              href={UserData.GithubRepositoryLink}
               className="text-pink-600 hover:underline"
             >
               GitHub

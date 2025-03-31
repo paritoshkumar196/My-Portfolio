@@ -20,6 +20,7 @@ Welcome to my personal portfolio website! This is where I showcase my skills, pr
 │   ├── 📂 pages       # Different sections of the website
 │   ├── 📂 section     # Reusable UI components  
 │   ├── 📂 assets      # Images and static files
+│   ├── 📂 data        # Modify this folder to personalize your portfolio
 │   ├── 📜 App.js      # Main application entry
 │   ├── 📜 index.js    # React entry point
 ├── 📜 package.json    # Project dependencies
@@ -29,9 +30,9 @@ Welcome to my personal portfolio website! This is where I showcase my skills, pr
 
 ## 🎨 Features
 
-- **Interactive Hero Section**: A dynamic hero section showcasing my skill
+- **Interactive Hero Section**: A dynamic hero section showcasing my skills.
 - **Projects Showcase**: Displays my best projects with live demos and source code.
-- **Contact-Me **: Allows visitors to get in touch with me.
+- **Contact Me**: Allows visitors to get in touch with me.
 
 ## 🚀 Getting Started
 
@@ -52,6 +53,16 @@ npm start
 
 The website will run at `http://localhost:3000/`.
 
+## 🎯 Customize Your Portfolio
+
+After installation, **you only need to modify the `src/data` folder** to personalize the website with your own details.
+
+- **User Details**: Update `userData.js` with your name, social links, and contact information.
+- **About Section**: Modify `aboutData.js` to reflect your bio and interests.
+- **Projects**: Add your projects in `projectsData.js`.
+
+Once you make these changes, your portfolio will be ready without touching any core code! 🚀
+
 ## 🌐 Live Demo
 [Check out my portfolio here!](https://paritoshkumar196.github.io/My-Portfolio/)
 
@@ -59,8 +70,8 @@ The website will run at `http://localhost:3000/`.
 
 Feel free to reach out to me:
 - **Email:** paritoshkumar12212@gmail.com
-- **LinkedIn:** [linkedin.com/in/paritosh-kumar](https://linkedin.com/in/paritosh-kuswaha)
-- **GitHub:** [github.com/paritosh-portfolio](https://paritoshkumar196.github.io/My-Portfolio/)
+- **LinkedIn:** [linkedin.com/in/paritosh-kumar](https://www.linkedin.com/in/paritosh-kumar-a07766287/')
+- **GitHub:** [github.com/paritosh-portfolio](https://github.com/paritoshkumar196/My-Portfolio.git)
 
 ---
 💙 *Thank you for visiting! Don't forget to leave feedback.*

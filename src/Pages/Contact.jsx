@@ -7,22 +7,22 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: <FaLinkedin className="w-6 h-6 sm:w-8 sm:h-8" />,
-      url: 'https://www.linkedin.com/in/paritosh-kumar-a07766287/',
+      url: UserData.linkedin,
       name: 'LinkedIn'
     },
     {
       icon: <FaGithub className="w-6 h-6 sm:w-8 sm:h-8 " />,
-      url: 'https://github.com/paritoshkumar196',
+      url: UserData.github,
       name: 'GitHub'
     },
     {
       icon: <FaInstagram className="w-6 h-6 sm:w-8 sm:h-8 " />,
-      url: 'https://www.instagram.com/itsparitoshkushwaha?igsh=dWV2bWRyZDU0NXZ1',
+      url: UserData.instagram,
       name: 'Instagram'
     },
     {
       icon: <FaEnvelope className="w-6 h-6 sm:w-8 sm:h-8" />,
-      url: 'mailto:paritoshkumar12212@gmail.com">',
+      url:`mailto:${UserData.email}`,
       name: 'Email'
     }
   ];
@@ -48,12 +48,12 @@ const Contact = () => {
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
                 <span className="text-gray-400 min-w-[80px]">Email:</span>
                 <a href="mailto:paritoshkumar12212@gmail.com" className="text-white hover:text-pink-600 transition-colors break-all">
-                 paritoshkumar12212@gmail.com
+                 {UserData.email}
                 </a>
               </div>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
                 <span className="text-gray-400 min-w-[80px]">Location:</span>
-                <span className="text-white">Bihar,India</span>
+                <span className="text-white">{UserData.Location}</span>
               </div>
             </div>
           </div>

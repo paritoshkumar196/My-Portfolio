@@ -1,0 +1,33 @@
+#1:How to add image from public folder so that it can see on both local host and page deploy.
+->`${import.meta.env.BASE_URL}image.jpg`, 
+2:fixed navigation of website:-
+ const [isVisible, setIsVisible] = useState(false);
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY > 300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  const scrollToTop = () => {
+    scroll.scrollToTop({ smooth: true, duration: 500 });
+  };
+
+  return (
+    <>
+      <Navbar />
+      
+      <button 
+        onClick={scrollToTop}
+        className={`fixed bottom-5 right-5 p-3 z-20 bg-blue-500 text-white rounded-full shadow-md transition-all
+          ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+      >
+        <FaArrowUp size={30} />
+      </button>
+  )
