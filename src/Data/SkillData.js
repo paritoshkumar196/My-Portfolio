@@ -12,17 +12,6 @@ import gitlogo from '../assets/icons/git.svg'
 import figmalogo from '../assets/icons/figma.svg'
 import materialuilogo from '../assets/icons/materialui.svg'
 
-
-
-
-
-
-
-
-
-
-
-
 export const skill = [
     { name: 'HTML', logo: Htmllogo },
     { name: 'css', logo: csslogo },
