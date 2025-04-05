@@ -13,11 +13,6 @@ function Loader() {
     <span>O</span>
     <span>S</span>
     <span>H</span>
-    <span>K</span>
-    <span>U</span>
-    <span>M</span>
-    <span>A</span>
-    <span>R</span>
   </div>
   </div>
   )

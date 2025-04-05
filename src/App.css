@@ -35,11 +35,6 @@
 .loader span:nth-child(6) { animation-delay: 0.5s; color:orangered ; }
 .loader span:nth-child(7) { animation-delay: 0.6s; color: red; }
 .loader span:nth-child(8) { animation-delay: 0.7s; color:white ; }
-.loader span:nth-child(9) { animation-delay: 0s;   color:violet ; }
-.loader span:nth-child(10) { animation-delay: 0.1s; color:  indigo; }
-.loader span:nth-child(11) { animation-delay: 0.2s; color:blue ; }
-.loader span:nth-child(12) { animation-delay: 0.3s; color: green; }
-.loader span:nth-child(13) { animation-delay: 0.4s; color:yellow ; }
 
 @keyframes bounce {
   0%, 100% {
