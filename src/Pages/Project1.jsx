@@ -4,6 +4,7 @@ import ProjectData from '../Data/ProjectData'
 import { FiGithub } from 'react-icons/fi'
 import { LuExternalLink } from 'react-icons/lu'
 import '../App.css';
+import AnimatedSection from '../Section/AnimateSection'
 function Project1() {
     const [clicked, setclicked] = useState(null)
     return (
@@ -33,7 +34,7 @@ function Project1() {
                         {clicked === index ? (
                         <div className='absolute inset-0 bg-black/80 rounded-t-lg p-6 flex flex-col justify-between'>
                         {/* Description */}
-                        <div className='overflow-x-auto'>
+                        <div className='overflow-y-auto'>
                           <p className='text-gray-200 text-lg leading-relaxed mb-4 font-light'>
                             {item.description}
                           </p>
@@ -79,7 +80,11 @@ function Project1() {
                       </div>
                         ) : (
                             <div className='flex items-center justify-center flex-col gap-4'>
-                                <img src={item.image} alt={item.title} className='rounded-t-lg' />
+                                <img src={item.image} alt={item.title} className='rounded-t-lg'
+                                 loading="lazy"           // Lazy load offscreen images
+                                 style={{ opacity: 0 }}    // Start invisible
+                                 onLoad={(e) => (e.target.style.opacity = 1)}
+                                />
                                 <h1 className='text-pink-600 font-bold text-xl'>{item.name}</h1>
                                 <p className='text-white text-center'>A web application to manage employee records, including adding, updating, deleting......</p>
                             </div>

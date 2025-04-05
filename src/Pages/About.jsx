@@ -1,8 +1,10 @@
 import React from 'react'
 import UserData from '../Data/UserData'
 import aboutData from '../Data/aboutData'
+import AnimatedSection from '../Section/AnimateSection'
 function About() {
   return (
+    <AnimatedSection>
     <div className=' bg-slate-950 py-8 md:py-12 lg:py-16 h-fit'>
       <div className='max-w-7xl mx-5 px-4 sm:px-6 lg:px-8'>
         <div className='flex flex-col md:flex-row items-center gap-8 lg:gap-12'>
@@ -49,6 +51,7 @@ function About() {
         </div>
       </div>
     </div>
+    </AnimatedSection>
   )
 }
 

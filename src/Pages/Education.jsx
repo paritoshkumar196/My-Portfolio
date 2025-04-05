@@ -2,6 +2,7 @@ import React from 'react'
 import Eimage from '../assets/icons/blur-23.svg'
 import '../App.css';
 import educationData from '../Data/EducationData';
+import AnimatedSection from '../Section/AnimateSection';
 function Education() {
   const bgStyle = {
     backgroundImage: `url(${import.meta.env.BASE_URL}hero.svg)`,
@@ -10,6 +11,7 @@ function Education() {
   };
 
   return (
+    <AnimatedSection>
     <div className='bg-slate-950 py-12 px-4 sm:px-6 lg:px-8'
    style={bgStyle}
     >
@@ -58,6 +60,7 @@ function Education() {
         </div>
       </div>
     </div>
+    </AnimatedSection>
   )
 }
 
